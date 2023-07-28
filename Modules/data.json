@@ -1,0 +1,11 @@
+{
+    "Age": 23,
+    "City": "kozhikode",
+    "Name": "swetha",
+    "Subject": [
+        "Data Structure",
+        "Computer Graphics",
+        "Discrete mathematics"
+    ],
+    "is_married": false
+}

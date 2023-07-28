@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>JavaScript Basics</h1>
+    <p id="demo"></p>
+    <P id="demo1"></P>
+    <script>
+        let x = 5;
+        let y = 2;
+        let z = x + y;
+
+         function myFunction(p1,p2){
+            return p1*p2
+        }
+        let result = myFunction(4,3);
+        document.getElementById("demo1").innerHTML = "result :" + result;
+        document.getElementById("demo").innerHTML = "The value of z is :" + z;
+    </script>
+</body>
+</html>
+
+<!-- Bulb -->
+<!DOCTYPE html>
+<body>
+    <h2>What can JavaScript Do?</h2>
+    <P>JavaScript can change HTML attribute values.</P>
+    <P>In this case JavaScript changes the values of the src (source)attribute of an image</P>
+    <button onclick="document.getElementById('myImage').src='pic_bulbon.gif'">Turn on the light</button>
+    <img id="myImage" src="pic_bulboff.gif" style="width:100px">
+    <button onclick="document.getElementById('myImage').src='pic_bulboff.gif'">Turn off the light</button>
+    
+</body>
+</html>
